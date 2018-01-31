@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>DOM</title>
+  </head>
+  <body>
+<form name='form' id='form'>
+  姓名：
+  <input type='text' name='name' id='name' /> 
+  E-mail：
+  <input type='text' name='email' id='email' />
+  <input type='button' name='submit' value='送出' onclick='DOM();' />
+</form>
+<script type="text/javascript">
+function DOM() {
+  var name_element = document.getElementById('name');
+  var name = name_element.value;
+  var email_element = document.getElementById('email');
+  var email = email_element.value;
+  alert('你的姓名是：'+name+'\n電子郵件是：'+email);
+}
+</script>
+  </body>
+</html>
