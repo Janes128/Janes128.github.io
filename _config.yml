@@ -104,5 +104,5 @@ theme: inside  #landscape
 deploy:
   type: git
   repo: https://github.com/Janes128/Janes128.github.io
-  branch: gh-pages
+  branch: master
   message: Ver.0.0.1 - New a post - Briefly Class in C++ and added tags and categories.
